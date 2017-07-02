@@ -1,0 +1,26 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzicabdulah/weather-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzicabdulah/weather-bot/issues"
+  },
+  "homepage": "https://github.com/hamzicabdulah/weather-bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0",
+    "path": "^0.12.7"
+  }
+}
