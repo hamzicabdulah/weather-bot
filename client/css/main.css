@@ -1,12 +1,33 @@
-h1 {
-    padding-top: 0px;
-    text-align: center;
-    font-family: Arima;
-}
-
 body {
+    background: #00264d;
+    /*
     background-image: url(../img/darkClouds.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    */
+}
+.heading {
+    padding-top: 0px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+.weather {
+    width: 18em;
+    min-height: 18em;
+    background: #ffff33;
+    margin: 5em auto;
+}
+img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 760px) {
+    .weather {
+        width: 25em;
+        min-height: 25em;
+    }
 }
